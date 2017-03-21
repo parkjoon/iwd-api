@@ -1,0 +1,21 @@
+{
+	"port": 8080,
+	"bodyLimit": "100kb",
+	"corsHeaders": ["Link"],
+	"version": "1",
+	"datasources": {
+		"environment": "dev",
+		"host": "localhost",
+		"port": "3306",
+		"debug": false,
+		"connectionLimit": 10,
+		"databases": [
+			{
+				"connectionLimit": 10,
+				"name": "database_name",
+				"user": "root",
+				"password": "password"
+			}
+		]
+	}
+}
